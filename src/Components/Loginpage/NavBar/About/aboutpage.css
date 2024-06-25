@@ -1,0 +1,33 @@
+.aboutpage{
+    width: 100vw;  
+    margin-top: 10vh;  
+}
+.topAbout{
+    background-image: url("../About/aboutTop.jpg");
+    height: 40vh;
+    text-align: center;
+    width: 100vw;
+}
+.topAbout h1{
+    padding-top: 12vh;
+    color: rgb(246, 214, 34);
+    font-size: 55px;
+}
+.topAbout p{
+    color: white;
+}
+.midAbout{
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px 50px 50px;
+    align-items: center;
+    gap: 50px;
+}
+.midAbout img{
+    height: 300px;
+}
+.aboutWho{
+    height: 300px;
+    width: 40%;
+    padding-top: 100px;
+}

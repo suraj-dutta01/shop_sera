@@ -1,0 +1,44 @@
+.contactform{
+    height: 40%;
+    width: 40%;
+    border: 1px solid black;
+    padding: 20px;
+    align-items: center;
+    margin-left:15% ;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.contactform form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contactform form input{
+    height: 30px;
+    width: 300px;
+    border: 1px solid green;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.contactform form textarea{
+    width: 300px;
+    height: 90px;
+    margin-bottom: 20px;
+    border: 1px solid green;
+    outline: none;
+    border-radius: 5px;
+}
+#sendBut{
+     height: 33px;
+     background-color: rgb(85, 190, 16);
+     border: none;
+     color: white;
+     width: 305px;
+     transition: 300ms;
+     border-radius: 5px;
+}
+#sendBut:hover{
+    background-color: rgb(78, 142, 35);
+}

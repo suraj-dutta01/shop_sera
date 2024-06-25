@@ -1,0 +1,77 @@
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(206, 219, 232);
+    position: fixed;
+    top: 0;
+}
+.nevLef{
+   padding-left: 30px;
+   padding-bottom: 5px;
+}
+.nevLef a{
+    text-decoration: none;
+}
+.nevLef h1{
+    color: rgb(123, 221, 10);
+}
+.nevLef h1 span{
+    color: rgb(255, 145, 0);
+}
+.navMid{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    padding-right: 10px;
+}
+.navMid a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 5px solid transparent;
+    padding-bottom: 10px;
+    transition: 500ms;
+}
+.navMid a:hover{
+    border-bottom: 5px solid green;
+}
+.searchDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -17px;
+}
+.searchDiv input{
+    height: 22px;
+    width: 250px;
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    border-right: none;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.searchDiv button{
+    height: 25.3px;
+    width: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.3px;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.navRig{
+    display: flex;
+    gap: 10px;
+    padding-right: 40px;
+}
+.navRig a{
+    text-decoration: none;
+    color: black;
+}

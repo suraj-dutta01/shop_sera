@@ -1,0 +1,49 @@
+.contectus{
+    width: 100vw;
+    margin-top: 10vh;
+}
+.contop{
+    background-image: url("../ContectUs/aboutTop.jpg");
+    height: 200px;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+.contop h1{
+    padding-top: 60px;
+    font-size: 45px;
+}
+.contectmap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    gap: 50px;
+}
+.leftmap{
+    height: 320px;
+    width: 450px;
+}
+.leftmap h4{
+    color: gray;
+    font-size: 12px;
+    padding-bottom: 9px;
+}
+.leftmap h2{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.mapbox{
+    display: flex;
+    justify-content: flex-start;
+    gap: 22px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.map iframe{
+    height: 370px;
+    width: 500px;
+}

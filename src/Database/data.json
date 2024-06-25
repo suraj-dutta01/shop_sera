@@ -1,0 +1,49 @@
+{
+  "user": [
+    {
+      "fName": "Thomas",
+      "sName": "Jasper",
+      "mobileNo": "11223344",
+      "emailAdd": "tom@gmail.com",
+      "password": "1234",
+      "dob": "1996-02-12",
+      "gender": "male",
+      "addresses": [
+        {
+          "name": "Suraj Dutta",
+          "phoneNo": "326492874",
+          "line1": "jhdvu23y",
+          "line2": "8g7",
+          "pincode": "721517",
+          "district": "c345",
+          "city": "Gopibhallavpur",
+          "state": "West Bengal"
+        },
+        {
+          "name": "Suraj Duttajhg",
+          "phoneNo": "326492874",
+          "line1": "jhdv",
+          "line2": "8g7",
+          "pincode": "721517",
+          "district": "c345",
+          "city": "Gopibhallavpur",
+          "state": "West Bengal"
+        }
+      ],
+      "userDp": "https://i.pinimg.com/736x/aa/2e/f0/aa2ef0ac37db19de28da92aa1b297ca6.jpg",
+      "id": "ad82"
+    },
+    {
+      "fName": "Gerald",
+      "sName": "Jinx",
+      "mobileNo": "12345",
+      "emailAdd": "jerry@gmail.com",
+      "password": "12345",
+      "dob": "1998-07-24",
+      "gender": "male",
+      "addresses": [],
+      "userDp": "https://upload.wikimedia.org/wikipedia/en/2/2f/Jerry_Mouse.png",
+      "id": "d9ab"
+    }
+  ]
+}
